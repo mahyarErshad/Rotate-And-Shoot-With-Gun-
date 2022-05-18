@@ -1,0 +1,23 @@
+body , html{
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    background-color: #050B12;
+    overflow: hidden;
+    cursor: url("./img/pistol.svg"), auto;
+}
+.border-dashed{
+    border: 1px dashed red;
+    border-radius: 50%;
+}
+.target{
+    position: fixed;
+    right: -208px;
+    top: 255px;
+}
+.bullet{
+    transform: translate(-62px, -30px);
+    transition: all 2s ease;
+    animation-fill-mode: forwards;
+    display: none;
+}
